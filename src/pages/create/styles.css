@@ -1,0 +1,169 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 574px;
+    height: 264px;
+    left: calc(50% - 574px/2 + 309px);
+    top: 306px;
+}
+
+.head1 {
+    size: 100px;
+    width: 574px;
+    height: 192px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.head1 h1{
+    font-size: 100px;
+    color: #501FC1;
+}
+
+.snapchat {
+    position: absolute;
+    width: 295px;
+    height: 74px;
+    left: 279px;
+    top: 59px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: right;
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subheading {
+    width: 521px;
+    height: 56px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #4F4F4F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    left: calc(50% - 320px/2 + 436px);
+    top: 622px;
+
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+}
+
+.lbl{
+    width: 295px;
+    height: 74px;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: right;
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.inputbox {
+    width: 50vw;
+    height: 23px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: right;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inputbox1 {
+    width: 20vw;
+    height: 23px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: right;
+    margin-right: 10vw;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inputbox2 {
+    width: 20vw;
+    height: 23px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    text-align: right;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.buttontext {
+    width: 185px;
+    height: 23px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
